@@ -19,6 +19,8 @@ export default function ResultVideo({filename, transcriptionItems}){
     useEffect(()=> {
         videoRef.current.src = videoUrl;
         load();
+        
+        //eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     function toFfmpegColor(rgb){

@@ -14,6 +14,8 @@ export default function FilePage({params}) {
 
     useEffect(() => {
         getTranscription();
+
+        //eslint-disable-next-line react-hooks/exhaustive-deps
     } , [filename]);
 
     function getTranscription() {
