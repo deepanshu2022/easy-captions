@@ -19,7 +19,7 @@ export default function  UploadForm() {
         const res = await axios.postForm('/api/upload', {
           file,
           maxBodyLength: 104857600, //100mb
-          maxContentLength: 104857600 //100mb
+          maxContentLength: 104857600, //100mb
         });
 
       setIsUploading(false);
