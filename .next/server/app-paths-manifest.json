@@ -1,6 +1,4 @@
 {
   "/page": "app/page.js",
-  "/api/upload/route": "app/api/upload/route.js",
-  "/[filename]/page": "app/[filename]/page.js",
-  "/api/transcribe/route": "app/api/transcribe/route.js"
+  "/[filename]/page": "app/[filename]/page.js"
 }
