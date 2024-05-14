@@ -43,6 +43,7 @@ export default function FilePage({params}) {
             <div className="flex flex-col items-center justify-center">
                 <h2>Transcribing Your Video...</h2>
                 <h4>It might take a second or two</h4>
+                <h4>(depeding on your video size or quality)</h4>
             </div>
         )
     }
